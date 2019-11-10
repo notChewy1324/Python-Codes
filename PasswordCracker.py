@@ -8,7 +8,7 @@ print("Enter the Password!")
 x = input("")
 type(x)
 if (x == secret) :
-	print("You just hacked 'EM!")
+	print("You just hacked 'eM!")
 elif (x == pword) :
 	print("You just got HACKED!")
 else : 
