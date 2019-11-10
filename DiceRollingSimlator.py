@@ -14,6 +14,7 @@ while(True):
             number = random.randint(1,6)
             continue
         else:
+            print("Bye")
             break
     else:
         print("Bye")
