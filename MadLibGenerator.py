@@ -1,5 +1,5 @@
 import random
-libnum = random.randint(1,5)
+libnum = random.randint(1,6)
 libnum = int(libnum)
 if (libnum == 1):
     userNoun = input("Give me a noun: ")
@@ -31,3 +31,9 @@ if (libnum == 5):
     userVerb = input("Give me a verb: ")
     userVerb = str(userVerb)
     print("What are",userNoun,"and why do they",userVerb,"!")
+if (libnum == 6):
+    userNoun = input("Give me a noun: ")
+    userNoun = str(userNoun)
+    userVerb = input("Give me a verb: ")
+    userVerb = str(userVerb)
+    print("I do not like",userNoun,"and hate to",userVerb,"!")
