@@ -5,17 +5,13 @@ import time
 #Take there input from a scale of one to ten
 #Ask 4 questions
 print("Welcome to the Doggy Survey")
-time.sleep(3)
-print("It's about to begin")
 time.sleep(2)
-print("From a scale 1-10. Are dogs fun to play with?")
-user0 = input("")
-print("From a scale 1-10. Are dogs better than cats?")
-user1 = input("")
-print("From a scale 1-10. Are dogs boring?")
-user2 = input("")
-print("From a scale 1-10. Did you like this survey?")
-user3 = input("")
+print("It's about to begin")
+time.sleep(1)
+user0 = input("From a scale 1-10. Are dogs fun to play with?: ")
+user1 = input("From a scale 1-10. Are dogs better than cats?: ")
+user2 = input("From a scale 1-10. Are dogs boring?: ")
+user3 = input("From a scale 1-10. Did you like this survey?: ")
 #Display user input
 print("You rated",user0,"for question 1")
 time.sleep(2)
