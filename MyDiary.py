@@ -1,10 +1,15 @@
-#Create program called my diary
-#import time
+#I am working on saving and taking user data to save locally to there device to resemble a diary.
+#This is still being worked on.
 import time
-#Take users input and save users input
-print("How was your day. Explain.")
+daycount = 1
+                      #ERROR FIX
+user = input("Day " + daycount + " Log:")
+user = str(user)
 time.sleep(2)
-user = input("")
-#Show that is was saved
+print("Saved!")
 time.sleep(1)
-print("Your day was saved!")
+daycount += 1
+                      #ERORR FIX
+user = input("Day " + daycount + " Log:")
+user = str(user)
+#The current goal is to have a diary that logs information when you save data to it.
