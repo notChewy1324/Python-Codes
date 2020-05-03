@@ -32,4 +32,5 @@ dog2hrs = int(dog2hrs)
 firstDog = dog(dog1, dog1Age, dog1hrs)
 secondDog = dog(dog2, dog2Age, dog2hrs)
 
+# Change methods for different outputs
 print(firstDog.dog_name, secondDog.dog_name())
