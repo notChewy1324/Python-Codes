@@ -1,20 +1,9 @@
-# OOP in Python
-
 class dog():
 
     def __init__(self, name, age, hrs):
         self.name = name
         self.age = age
         self.hrs = hrs
-
-    def dog_name(self):
-        return self.name
-
-    def dog_age(self):
-        return self.age
-
-    def dog_toyTime(self):
-        return self.hrs
 
 dog1 = input("Whats your first dogs name?: ")
 dog2 = input("Whats your second dogs name?: ")
@@ -33,4 +22,4 @@ firstDog = dog(dog1, dog1Age, dog1hrs)
 secondDog = dog(dog2, dog2Age, dog2hrs)
 
 # Change methods for different outputs
-print(firstDog.dog_name, secondDog.dog_name())
+print(firstDog.name, secondDog.age)
