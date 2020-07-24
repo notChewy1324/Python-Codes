@@ -1,13 +1,14 @@
 # Functional Programming
 
 def increment(a):
-    sum = a + 1
+    sum = a + 5
     return sum
 
 def decrement(a):
-    sum = a - 1
+    sum = a - 3
     return sum
 
 # Show Increment
-display = increment(5) # Pass a whole number to be incremented
-print(display)
+x = increment(5) # Pass a whole number to be incremented
+sum = decrement(x) # Pass a whole number to be decremented
+print(sum)
