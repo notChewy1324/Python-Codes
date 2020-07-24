@@ -8,7 +8,13 @@ class BagOfOranges():
         self.Expired = e
 
 
+# Oranges
 org1 = BagOfOranges("light orange", 3, 8)
-org2 = BagOfOranges("dark orange", 5, 12).expired("YES")
+org2 = BagOfOranges("dark orange", 5, 12)
+org2.expired("YES")
 org3 = BagOfOranges("yellow", 1, 5)
-print(org1.Age)
+
+# Display Values
+print(org3.Color)
+print(org2.Color)
+print(org1.Color)
