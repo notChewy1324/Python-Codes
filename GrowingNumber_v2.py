@@ -6,4 +6,3 @@ print(user)
 while(True):
     user2 = (user2 * user) * 2
     print(user2)
-    continue
