@@ -1,10 +1,8 @@
 #Create a program named Password
 #Take user input and save it localy to a varible
-print("Give me a password!")
-pword = input("")
+pword = input("Give me a password!")
 type(pword)
-print("Password Saved!")
-print("Enter Password!")
+print("Password Saved! \nEnter Password!")
 password = input("")
 preset = pword
 #Take users input to match the correct password or inncorrt password and display in or out
