@@ -7,8 +7,6 @@ password = input("")
 preset = pword
 #Take users input to match the correct password or inncorrt password and display in or out
 if (password == preset) :
-	print("Your In")
-	print("Password is correct")
+	print("Your In \nPassword is correct")
 else :
-	print("Your Out")
-	print("Password is incorrect")
+	print("Your Out \nPassword is incorrect")
