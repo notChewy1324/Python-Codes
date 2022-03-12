@@ -2,7 +2,7 @@ from datetime import datetime
 from playsound import playsound
 
 
-def validateTime(alarmTime):
+def validate_time(alarm_time):
     if len(alarmTime) != 11:
         return "Invalid time format! Please try again... "
     else:
@@ -18,7 +18,7 @@ def validateTime(alarmTime):
 while True:
     alarmTime = input("Enter the time in 'HH:MM:SS AM/PM' format: ")
     
-    validate = validateTime(alarmTime.lower())
+    validate = validate_time(alarmTime.lower())
     if validate != "ok":
         print(validate)
     else:
